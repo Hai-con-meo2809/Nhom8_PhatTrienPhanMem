@@ -13,13 +13,13 @@ namespace WebApplication1.Controllers
             public string TenThuoc { get; set; }
             public string GioUong { get; set; }
             public bool DaUong { get; set; }
-            public string Loai { get; set; }
+            public string Loai  { get; set; }
         }
 
         // FAKE DATABASE
         public static List<Thuoc> dbThuoc = new List<Thuoc>
         {
-            new Thuoc { Id = 1, TenThuoc = "Huyết Áp Losartan 50mg", GioUong = "08:00", DaUong = false, Loai = "Thuốc Kê Đơn" },
+            new Thuoc { Id = 1, TenThuoc = "Huyết Áp Losartan 50mg hel", GioUong = "08:00", DaUong = false, Loai = "Thuốc Kê Đơn" },
             new Thuoc { Id = 2, TenThuoc = "Vitamin C 500mg", GioUong = "12:00", DaUong = true, Loai = "TP Chức Năng" }
         };
 
